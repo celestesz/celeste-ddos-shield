@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'h1';
+    src: url('../fonts/BORCHAregular.otf') format('opentype');
+
+}
+
+
+
+:root {
+
+    --cor1: #916ac0;
+    --cor2: #3c2558;
+    --cor3: #68349c;
+    --cor4: #1c0b31;
+}
+
+
+img {
+    margin: auto;
+    display: block;
+    padding-top: 30px;
+    border-radius: 60px;
+}
+
+
+body {
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor1));
+}
+
+main {
+    background-color: var(--cor1);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    display: block;
+    
+    padding-left: 30px ;
+    padding-right:30px ;
+   
+}
+
+main h1 {
+    padding-top: 30px;
+    font-family: 'h1';
+    font-size: 3em;
+    text-align: center;
+    color: white;
+}
+
+main p {
+    font-family: 'p';
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+    font-style: normal;
+    color: white;
+    padding-top: 30px;
+}
+
+
+footer {
+    background-color: var(--cor4);
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 1px;
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+   
+}
+
+footer > p:hover {
+    color: #916ac0;
+}
+

@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'h1';
+    src: url('../fonts/BORCHAregular.otf') format('opentype');
+
+}
+
+@font-face {
+    font-family: 'h2';
+    src: url('../fonts/Mainlux-Light.otf') format('opentype');
+}
+
+
+:root {
+
+    --cor1: #916ac0;
+    --cor2: #3c2558;
+    --cor3: #68349c;
+    --cor4: #1c0b31;
+}
+
+body {
+    background-color: #614a7e;
+}
+
+
+header > h1
+{
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'h1';
+    font-size: 3em;
+    color: white;
+}
+
+
+
+
+#bloco1 {
+    background-image: linear-gradient(to top, var(--cor2), var(--cor1));
+    max-width: 400px;
+    margin: auto;
+    display: block;
+    margin-top: 70px;
+    margin-left: 350px;
+    border-radius: 10px;
+}
+
+.h1s {
+
+    font-family: 'h1';
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 3em;
+
+
+
+
+}
+
+
+.ps {
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+    font-style: normal;
+    padding-left: 30px;
+    color: white;
+}
+
+.pss {
+    font-family: "h1", sans-serif;
+    line-height: 30px;
+    font-style: normal;
+    color: #f5f5f5;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+}
+
+
+

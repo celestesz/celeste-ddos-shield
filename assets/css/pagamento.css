@@ -29,7 +29,7 @@
 }
 
 body {
-    background-color: #1c0b31;
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor1));
 }   
 
 header {
@@ -80,7 +80,60 @@ header > nav > a:hover {
 
 main {
     background-color: white;
-    max-width: 300px;
-    min-width: 800px;
+    max-width: 1000px;
+    min-width: 500px;
     margin: auto;
+    display: block;
 }
+
+
+main h1 {
+    font-family: 'h1';
+    color: #401870;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 2.5em;
+}
+
+main h2 {
+    font-family: 'h2';
+    padding-top: 10px;
+    color: #674e86;
+    padding-left: 20px;
+}
+
+#h2 {
+    
+    font-family: 'h2';
+    padding-bottom: 10px;
+    color: #674e86;
+    padding-left: 20px;
+
+
+}
+
+main p {
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+    font-style: normal;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+main strong {
+    color: #8469a8;
+}
+
+main li {
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+    font-style: normal;
+    list-style-position: inside;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+
+

@@ -137,3 +137,20 @@ main li {
 
 
 
+footer {
+    background-color: var(--cor4);
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 1px;
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+   
+}
+
+footer > p:hover {
+    color: #916ac0;
+}
+
+
+
